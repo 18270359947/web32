@@ -36,6 +36,10 @@ Haw.prototype.printPrice = function(){
 //Haw()
 
 var h1 = Haw("山楂",2,"湖南省");
+h1.printName2 = function(){
+    console.log(h1._proto_)
+}
+
 h1.printName()
 h1.printPrice()
 

@@ -14,4 +14,9 @@ function Haw3 (){
     console.log("this is haw")
 }
 
-Haw3
+function apple(){
+    this.name = "zhangsan"
+}
+apple.information = {
+    name :null
+}
