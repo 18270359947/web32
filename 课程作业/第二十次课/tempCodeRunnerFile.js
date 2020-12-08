@@ -1,3 +1,3 @@
-let obj1 = new Object({});
-obj1.name="张三"
-console.log(obj1._proto_._proto_)
+;(console.log(1000/function(){
+    console.log("this is anonymous function "); 
+    return function(){return 2000/2}()}()))
